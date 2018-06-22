@@ -52,7 +52,7 @@ if [ -z "$SETUP_DEVICE_COMMON_DIR" ]; then
     SETUP_DEVICE_COMMON_DIR=0
 fi
 
-HELPER="$LINEAGE_ROOT"/vendor/lineage/build/tools/extract_utils.sh
+HELPER="$HAVOC_ROOT"/vendor/havoc/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
